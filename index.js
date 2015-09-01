@@ -23,7 +23,7 @@ angular.module(module.exports, [])
         characterData: true,
       };
 
-      if(MutationObserver) {
+      if(typeof MutationObserver === "function") {
         obs = new MutationObserver(function () {
           Ps.update(el);
         });
