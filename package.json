@@ -1,6 +1,6 @@
 {
   "name": "angular-perfect-scrollbar-2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A wrapper for perfect-scrollbar using its new CommonJS API and injecting CSS automatically.",
   "main": "dist/index.js",
   "scripts": {
