@@ -15,6 +15,7 @@ Another wrapper around [perfect-scrollbar](https://github.com/noraesae/perfect-s
   ```
   angular.module('app', [ require('angular-perfect-scrollbar-2') ])
   ```
+  or replace `require()` by `'angular-perfect-scrollbar-2'` and put appropriate `<script src='.../dist/index.js'>` tag in your html.
 3. Use `<perfect-scrollbar>` directive in your templates:
 ```
 <style type="text/css">
@@ -56,6 +57,9 @@ Or you may pass an object directly within template:
 
 The `update` attribute may point to a variable from $scope. Setting this variable to
 `true` forces scrollbar update. The variable is set to `false` automatically afterwards.
+
+### Example
+A working example can be found in the `example` directory. Just open `index.html` in browser.
 
 ### License
 MIT
