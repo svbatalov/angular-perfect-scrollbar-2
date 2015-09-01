@@ -1,8 +1,4 @@
-var angular = require('angular');
-
-angular.module('app', [
-  require('../')
-])
+angular.module('app', [ 'angular-perfect-scrollbar-2' ])
 .controller('ctrl', ['$scope', '$interval', function ($scope, $interval) {
   $scope.scrollopts = {
     wheelSpeed: 2,
@@ -24,5 +20,5 @@ angular.module('app', [
       $scope.list.pop();
       counter--;
     }
-  }, 100, 50);
+  }, 100);
 }]);
