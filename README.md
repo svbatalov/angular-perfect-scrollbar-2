@@ -10,12 +10,12 @@ Another wrapper around [perfect-scrollbar](https://github.com/noraesae/perfect-s
 * Scrollbar can be updated manually when necessary.
 
 ### Usage
-0. `npm install angular-perfect-scrollbar-2`
-1. In app code:
-```
-angular.module('app', [ require('angular-perfect-scrollbar-2') ])
-```
-2. Use `<perfect-scrollbar>` directive in your templates:
+1. `npm install angular-perfect-scrollbar-2`
+2. In app code:
+  ```
+  angular.module('app', [ require('angular-perfect-scrollbar-2') ])
+  ```
+3. Use `<perfect-scrollbar>` directive in your templates:
 ```
 <style type="text/css">
 	.scroll-wrapper {
