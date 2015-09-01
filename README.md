@@ -3,7 +3,7 @@ Another wrapper around [perfect-scrollbar](https://github.com/noraesae/perfect-s
 
 ### Motivation
 * No need to include CSS from `node_modules`, it is injected automatically
-  (which may cause problems if you need significantly changed version of it).
+  (which may cause problems if you need significantly changed version of it, but handy otherwise).
 * Simpler configuration interface compared to [angular-perfect-scrollbar](https://github.com/itsdrewmiller/angular-perfect-scrollbar)
   -- you just pass a configuration object, not individual properties.
 * A `MutationObserver`, if supported, is used to update a scrollbar.
