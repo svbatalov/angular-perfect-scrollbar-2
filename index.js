@@ -2,6 +2,9 @@ var Ps = require('perfect-scrollbar');
 var angular = require('angular');
 require('./app.css');
 
+// Export globally at user request
+global.PerfectScrollbar = Ps;
+
 module.exports = 'angular-perfect-scrollbar-2';
 
 angular.module(module.exports, [])
