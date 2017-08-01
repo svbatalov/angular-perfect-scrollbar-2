@@ -42,7 +42,7 @@ angular.module(module.exports, [])
         }
       });
 
-      scope.$on('destroy', function () {
+      scope.$on('$destroy', function () {
         obs.disconnect();
         Ps.destroy(el);
       });
